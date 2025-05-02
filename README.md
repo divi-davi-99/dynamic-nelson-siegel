@@ -32,15 +32,13 @@ To assess and compare the forecast accuracy of the models, the **Diebold-Mariano
 
 ## 📁 What's Inside
 - `/DNS.m/`: Main and function codes, provided in Matlab
-- `/ECBData.xlsx/`: Dataset used, provided by ECB every da
-- `/forecast/`: Scripts for recursive, expanding-window forecasts
-- `/dm_test/`: Implementation of Diebold-Mariano test across models and maturities
-- `/plots/`: Scripts to generate visualizations and tables for model comparison
-- `/data/`: Dataset of Euro Area yields (1-month to 30-year maturities)
+- `/ECBData.xlsx/`: Dataset provided by the European Central Bank (ECB), converted to a monthly frequency for the analysis conducted in this thesis (3-month to 10-year maturities).
+- `/AR_factor_forecasting/`: For further details regarding the specifications of the models used for comparison with the random walk, please contact the author via his LinkedIn profile (_**below in Credits**_). The process is quite the same for all of them.
+- `/Diebold_Mariano_test/`: Implementation of Diebold-Mariano test across models and maturities.
 
 
 ## 🚀 Requirements
-- MATLAB R2022a or later
+- MATLAB R2024a or later
 - Econometrics Toolbox
 - Optimization Toolbox
 
